@@ -1,0 +1,13 @@
+Lofi Playlist 영상을 만들 제목과 분위기를 생성하세요.
+- 제목은 감성적인 영어 1~2문장을 이어 만들고, 관련 이모티콘을 하나 추가해 78글자 이내로 만들어 주세요. 예시: 'Golden Hour Coding ☕ | Cozy Lofi Beats for Deep Focus & Relaxation' 또는 'Santorini Sunset Dreams 🌅 | Chill Lofi Beats for a Cozy Evening'
+- 분위기는 Epidemic Sound에서 제공하는 Lofi mood 목록 중 3~5개를 랜덤하게 선택하세요.
+- 가능한 mood 리스트: [Dreamy, Hopeful, Relaxing, Happy, Sentimental, Peaceful, Smooth, Restless, Quirky, Floating, Romantic, Dark, Eccentric, Heavy & Ponderous, Funny, Lounge, Mysterious, Sad, Elegant]
+- JSON 형식으로 반환하세요.
+
+출력 예시:
+```json
+{
+    "title": Golden Hour Coding ☕ | Cozy Lofi Beats for Deep Focus & Relaxation,
+    "moods": ["Dreamy", "Relaxing", "Sentimental", "Peaceful"]
+}
+```
